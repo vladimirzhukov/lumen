@@ -14,3 +14,6 @@
 $app->get('/', function() use ($app) {
     return $app->welcome();
 });
+$app->get('/about/', function() use ($app) {
+    return $app->about();
+});
